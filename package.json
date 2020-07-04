@@ -1,7 +1,8 @@
 {
-  "name": "gridsome-remark-embed-instagram",
-  "version": "1.0.0",
+  "name": "gridsome-plugin-remark-instagram",
+  "version": "0.1.0",
   "description": "Instagram post embedding for Gridsome Remark",
+  "repository": "https://github.com/ninceur/gridsome-remark-embed-instagram",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,9 +14,10 @@
     "markdown",
     "instagram"
   ],
-  "author": "Sean Edevane <ninceur@gmail.com>",
+  "author": "Sean Edevane <sean@renaissance.ninja>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.19.2",
     "unist-util-visit": "^2.0.2"
   }
 }

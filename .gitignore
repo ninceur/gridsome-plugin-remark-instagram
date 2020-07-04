@@ -85,3 +85,7 @@ typings/
 .dynamodb/
 
 # End of https://www.gitignore.io/api/node
+
+# Previous attempts at the index.js file.
+index-gatsbyStyle.js
+index-ytEmbedStyle-fail.js
