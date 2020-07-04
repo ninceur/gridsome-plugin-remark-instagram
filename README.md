@@ -1,6 +1,8 @@
 # Gridsome Remark Instagram Plugin
 
-This is a plugin for [Gridsome](https://gridsome.org/)'s chosen markdown engine, [Remark](https://remark.js.org/), which allows you to embed individual Instagram posts into markdown files. Current status: In testing, DOES NOT WORK YET. Do not use in production sites.
+This is a plugin for [Gridsome](https://gridsome.org/)'s chosen markdown engine, [Remark](https://remark.js.org/), which allows you to embed individual Instagram posts into markdown files. Current status: **testing** do NOT use in production sites. 
+
+This plugin is not currently listed in npm.
 
 ## Loading
 
@@ -27,16 +29,14 @@ module.exports = {
 
 This plugin follows the [Gatsby Instagram plugin's formatting](https://github.com/pamo/gatsby-remark-instagram-embed) of using Markdown image tags with the alt text of "instagram" to load sources.
 
-`![instagram](postString)`
-
+```markdown
+`![instagram](aXEtSFGB32aC)`
+```
 ## Output
 
 Output is still in testing. Intended method is to query the Instagram API, via Axios, get the response.data.html entry from the JSON response, and set the node.value to the HTML response using unist-util-visit with visit() to traverse the markdown tree.
 
-Currently the API query __works__ but the image tag does not correctly get replaced by the HTML. 
-
-
-This is how the video should appear on the screen:
+Currently the API query _works_ but the image tag does not correctly get replaced by the HTML.  
 
 ## License
 
