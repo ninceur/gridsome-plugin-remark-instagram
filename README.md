@@ -1,5 +1,7 @@
 # Gridsome Remark Instagram Plugin
 
+DO NOT USE. The legacy Instagram oEmbed API has been deprecated and this plugin does not work in its current state. Work is paused as the new Facebook API setup requires creating a Facebook app, getting it registered, etc. GET request format is included in the `getEmbedData` function's comments currently.
+
 This is a plugin for [Gridsome](https://gridsome.org/)'s chosen markdown engine, [Remark](https://remark.js.org/), which allows you to embed individual Instagram posts into markdown files. Current status: **testing** do NOT use in production sites. 
 
 This plugin is not currently listed in npm.
