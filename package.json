@@ -17,7 +17,7 @@
   "author": "Sean Edevane <sean@renaissance.ninja>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "unist-util-visit": "^2.0.2"
   }
 }
